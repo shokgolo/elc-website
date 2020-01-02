@@ -172,6 +172,11 @@ html {
   border-color: #353535;
 }
 
+.frame {
+  height: 1250px;
+  background: transparent no-repeat ;
+}
+
 .bg-gray-1 {
   border-color: #f7f7f7;
 }
@@ -375,8 +380,6 @@ h5,
 
 .btn-custom-1 {
   border-radius: 30px;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 0;
   color: #ffffff;
   background-color: #2d4cc5;
   border-color: #2d4cc5;
@@ -2410,7 +2413,8 @@ color: blue;
   color: #fff;
 }
 .block-2 p {
-  color: rgba(255, 255, 255, 0.7);
+  /* color: rgba(255, 255, 255, 0.7); */
+  color: #000;
 }
 .block-2.red,
 .block-2.red .wrap-icon {
