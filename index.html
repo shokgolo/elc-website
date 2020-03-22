@@ -411,6 +411,20 @@
         </div>
       </div>
       <form name="contact" method="POST"  id='contactForm' data-netlify='true'>
+				<p>
+					<label>Your Name: <input type="text" name="name" /></label>
+				</p>
+				<p>
+					<label>Your Email: <input type="email" name="email" id='emailTxt' /></label>
+				</p>
+				<p>
+					<label>Message: <textarea name="message"></textarea></label>
+				</p>
+				<p>
+					<button type="submit" id='myBtn' >Send Message</button>
+				</p>
+			</form>
+      <!-- <form name="contact" method="POST"  id='contactForm' data-netlify='true'>
         <div class="row">
           <div class="col-lg-8 mb-5" >
             <form action="#" method="post">
@@ -453,7 +467,7 @@
             </div>
           </div>
         </div>
-      </form>
+      </form> -->
       </div>
     </div>
     <div data-netlify-recaptcha="true"></div>
