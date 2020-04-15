@@ -1200,6 +1200,9 @@ color: blue;
   background: rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
+.fillter1{
+color: blue;
+}
 .site-section-cover.inner-page,
 .site-section-cover.inner-page .container > .row {
   height: auto;
@@ -1453,6 +1456,11 @@ color: blue;
   display: none;
 }
 
+.img-resize {
+  width: 300px; /* You can set the dimensions to whatever you want */
+  height: 200px;
+  object-fit: cover;
+}
 .block-13 .owl-dots {
   text-align: center;
   position: relative;
@@ -1842,6 +1850,9 @@ color: blue;
     margin-bottom: 30px;
   }
 }
+.text-white {
+  color: #17a2b8!important;
+}
 
 .blog-entry .blog-thumbnail {
   -webkit-box-flex: 0;
@@ -1862,6 +1873,11 @@ color: blue;
 
 .bg-light {
   background-color: #f6f5f5 !important;
+}
+
+.bg-white-a{
+  background-color: #17a2b8!important;
+    margin: 50px;
 }
 
 .post-entry-1 .meta {
