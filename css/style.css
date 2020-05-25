@@ -2583,7 +2583,7 @@ color: blue;
 
 }
 
-@media screen  and (max-width: 500px) {
+@media screen  and (max-width: 2000px) {
   .dd {
     margin-left: 85px;
    margin-top: 80px;
@@ -2591,7 +2591,7 @@ color: blue;
   }
 }
 
-@media screen  and (max-width: 500px) {
+@media screen  and (max-width: 2000px) {
   .logo-img {
     margin-right: 100px;
     
@@ -2599,7 +2599,7 @@ color: blue;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 2000px) {
   .phoneV {
     margin-left: 380px;
   }
