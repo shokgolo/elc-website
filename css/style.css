@@ -2574,3 +2574,33 @@ color: blue;
 
 #about {
 }
+
+.dd {
+
+} 
+
+.phoneV{
+
+}
+
+@media screen  and (max-width: 500px) {
+  .dd {
+    margin-left: 85px;
+   margin-top: 80px;
+   
+  }
+}
+
+@media screen  and (max-width: 500px) {
+  .logo-img {
+    margin-right: 100px;
+    
+   
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .phoneV {
+    margin-left: 380px;
+  }
+}
